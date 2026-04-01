@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Star, Trash2 } from "lucide-react"; // Changed Send to Trash2 for the delete icon
+import { Star, Trash2 } from "lucide-react"; 
 import { Button } from "./ui/button";
 import { Textarea } from "./ui/textarea";
 import { 
   useCreateReviewMutation, 
-  useDeleteReviewMutation // 1. Added this missing mutation
+  useDeleteReviewMutation 
 } from "@/features/api/purchaseApi";
 import { toast } from "sonner";
 import { useSelector } from "react-redux";

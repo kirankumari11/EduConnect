@@ -13,7 +13,7 @@ import { CheckCircle, CheckCircle2, CirclePlay, Trophy, Star, HelpCircle, FileTe
 import React, { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
-import CourseReviewSection from "@/components/courseReviewSection";
+import CourseReviewSection from "@/components/CourseReviewSection";
 import { jsPDF } from "jspdf";
 
 const CourseProgress = () => {
